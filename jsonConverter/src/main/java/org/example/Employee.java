@@ -17,4 +17,9 @@ public class Employee {
         this.country = country;
         this.age = age;
     }
+    
+    @Override
+    public String toString() {
+        return  + this.id + " " + this.firstName + " " + this.lastName + " " + this.country + " " + this.age;
+    }
 }
